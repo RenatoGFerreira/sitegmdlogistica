@@ -3,11 +3,12 @@ import { CallToActionSection } from "@/component/CallToActionSection";
 import Footer from "@/component/Footer";
 import Header from "@/component/Header";
 import { HeroCarousel } from "@/component/HeroCarousel";
-import SectionOne from "@/component/SectionOne";
-import SectionTwo from "@/component/SectionTwo";
 import { SolutionsIntro } from "@/component/SolutionsIntro";
 import { StatsSection } from "@/component/StatsSection";
 import WhatsAppButton from "@/component/WhatsappButton";
+import Contacts from "@/component/Contacts";
+import SectionModelTwo from "@/component/SectionModelTwo";
+import SectionModelOne from "@/component/SectionModelOne";
 
 export default function Home() {
   const WHATSAPP_PHONE_NUMBER = "5531984378974";
@@ -21,8 +22,9 @@ export default function Home() {
         <StatsSection />
         <CallToActionSection />
         <SolutionsIntro />
-        <SectionTwo />
-        <SectionOne />
+        <SectionModelOne />
+        <SectionModelTwo />
+        <Contacts />
       </main>
       <Footer />
       <WhatsAppButton

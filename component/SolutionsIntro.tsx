@@ -2,8 +2,8 @@ import React from "react";
 
 export const SolutionsIntro: React.FC = () => {
   return (
-    <section className="bg-light-gray py-16 sm:py-24">
-      <div className="container mx-auto max-w-5xl px-4 lg:px-8">
+    <section className="bg-light-gray relative ">
+      <div className="container mx-auto max-w-5xl px-4 lg:px-8 py-16 sm:py-24">
         <div className="text-center">
           <p className="text-base font-semibold leading-7 text-secondary-blue">
             SOLUÇÕES COMPLETAS
@@ -16,6 +16,25 @@ export const SolutionsIntro: React.FC = () => {
             ao Compliance e Rastreamento em tempo real.
           </p>
         </div>
+      </div>
+
+      <div className="absolute bottom-0 left-0 right-0 max-w-lg mx-auto">
+        
+        <svg
+          className="w-full" 
+          height="1px" 
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="0"
+            y1="2" 
+            x2="100%"
+            y2="2" 
+            strokeDasharray="12 5"
+            className="stroke-secondary-blue" 
+            strokeWidth="4" 
+          />
+        </svg>
       </div>
     </section>
   );

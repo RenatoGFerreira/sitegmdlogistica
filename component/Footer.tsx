@@ -10,7 +10,7 @@ export default function Footer() {
           <p>CNPJ: 48.864.926/0001-51</p>
         </div>
         <div className="mt-2 text-center text-gray-600 text-sm">
-          <p>Tenha um site deste você também com a IoNext</p>
+          {/* <p>Tenha um site deste você também com a IoNext</p> */}
         </div>
       </div>
     </footer>
