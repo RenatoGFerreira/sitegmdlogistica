@@ -11,8 +11,8 @@ export default function Contacts({
 }: FooterProps) {
   const encoded = encodeURIComponent(message);
   const href = `https://wa.me/${phone}?text=${encoded}`;
-        const { ref, visible } = useRevealOnScroll();
-  
+  const { ref, visible } = useRevealOnScroll();
+
   return (
     <section id="contact" className="py-20 bg-light-gray">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 ">
@@ -33,7 +33,10 @@ export default function Contacts({
           </div>
         </div>
         <div>
-          <h2 ref={ref} className="text-3xl font-bold mb-8 text-primary-blue text-center md:text-start">
+          <h2
+            ref={ref}
+            className="text-3xl font-bold mb-8 text-primary-blue text-center md:text-start"
+          >
             Entre em Contato
           </h2>
 
@@ -48,7 +51,7 @@ export default function Contacts({
               )}
             </div>
 
-            <div className="flex items-center gap-3 ">
+            <div className="flex items-center gap-3">
               <a
                 href={href}
                 target="_blank"
@@ -76,11 +79,10 @@ export default function Contacts({
         focus:ring-accent-yellow
         focus:ring-offset-2
         ${
-            visible
-              ? "opacity-100 translate-y-0 animate-show-in"
-              : "opacity-0 translate-y-8"
-          }`}
-      
+          visible
+            ? "opacity-100 translate-y-0 animate-show-in"
+            : "opacity-0 translate-y-8"
+        }`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,14 +110,13 @@ export default function Contacts({
           after:transition-all
           after:duration-300
           after:ease-out
-          group-hover:after:w-full
         "
                 >
                   Agendar demonstração
                 </span>
               </a>
             </div>
-          </div>          
+          </div>
         </div>
       </div>
     </section>

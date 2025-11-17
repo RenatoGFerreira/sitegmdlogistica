@@ -4,6 +4,14 @@ import {
   EyeIcon,
   CpuChipIcon,
 } from "@heroicons/react/24/outline";
+import { StaticImageData } from "next/image";
+
+export interface componentStyle {
+  what: string;
+  title: string;
+  text: string;
+  image: string | StaticImageData;
+}
 
 const featuresList = [
   {

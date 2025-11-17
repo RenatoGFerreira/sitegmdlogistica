@@ -19,10 +19,10 @@ const slidesData = [
     content: (
       <div className="flex h-full w-full flex-col items-center justify-center p-6 text-center text-light-gray md:flex-row md:justify-around md:items-center">
         <div className="max-w-90 md:max-w-120 lg:max-w-full">
-          <h1 className="text-2xl font-extrabold md:text-3xl lg:text-3xl">
+          <h1 className="text-2xl font-extrabold md:text-3xl lg:text-4xl">
             SISTEMAS LOGÍSTICOS QUE ORGANIZAM, CONTROLAM E ENTREGAM{" "}
           </h1>
-          <h1 className="mb-4 text-xl font-extrabold text-accent-yellow md:text-2xl lg:text-3xl">
+          <h1 className="mb-4 text-xl font-extrabold text-accent-yellow md:text-2xl lg:text-4xl">
             SOLUÇÕES EM TMS • COMPLIANCE • RASTREAMENTO
           </h1>
         </div>
@@ -99,7 +99,7 @@ export function HeroCarousel() {
   );
 
   return (
-    <div>
+    <div className="">
       <div className="h-21 bg-dark-blue top-0 left-0 w-full z-0">
       </div>
       <Carousel
@@ -111,7 +111,7 @@ export function HeroCarousel() {
       <CarouselContent>
         {slidesData.map((slide) => (
           <CarouselItem key={slide.id}>
-            <div className="h-96 w-full" style={slide.style}>
+            <div className="h-[70vh] w-full" style={slide.style}>
               {slide.content}
             </div>
           </CarouselItem>

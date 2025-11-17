@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export const CallToActionSection: React.FC = () => {
   return (
     <section className="relative w-full overflow-hidden">

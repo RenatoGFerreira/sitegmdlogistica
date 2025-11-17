@@ -2,7 +2,7 @@ import React from "react";
 
 export const SolutionsIntro: React.FC = () => {
   return (
-    <section className="bg-light-gray relative ">
+    <section id="sistems" className="bg-light-gray relative ">
       <div className="container mx-auto max-w-5xl px-4 lg:px-8 py-16 sm:py-24">
         <div className="text-center">
           <p className="text-base font-semibold leading-7 text-secondary-blue">
@@ -20,7 +20,7 @@ export const SolutionsIntro: React.FC = () => {
 
       <div className="absolute bottom-0 left-0 right-0 max-w-lg mx-auto">
         
-        <svg
+        {/* <svg
           className="w-full" 
           height="1px" 
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export const SolutionsIntro: React.FC = () => {
             className="stroke-secondary-blue" 
             strokeWidth="4" 
           />
-        </svg>
+        </svg> */}
       </div>
     </section>
   );
