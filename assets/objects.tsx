@@ -212,18 +212,17 @@ export const WhatsAppIcon = () => (
 );
 
 export const phoneNumber = "5531984378974";
-export const messageText = "Olá! Gostaria de mais informações sobre a GMD Logística.";
+export const messageText =
+  "Olá! Gostaria de mais informações sobre a GMD Logística.";
 
-
-
-export const PropostaButton = ({text}) => (
+export interface Propose {
+  text: string;
+}
+export const PropostaButton = ({ text }: Propose) => (
   <a
-    href="https://wa.me/5531999999999" 
-    
+    href="https://wa.me/5531999999999"
     target="_blank"
-    
     rel="noopener noreferrer"
-    
     className="
         flex items-center bg-secondary-blue hover:bg-secondary-blue/90 
         text-light-gray font-semibold py-3 px-6 rounded-lg 
