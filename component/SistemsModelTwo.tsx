@@ -1,19 +1,15 @@
-import Image from "next/image";
 import React from "react";
-import { StaticImageData } from "next/image";
+import Image from "next/image";
 import { PropostaButton } from "@/assets/objects";
-export interface componentStyle {
-  what: string;
-  title: string;
-  text: string;
-  image: string | StaticImageData;
-}
+import { componentStyle } from "@/assets/interfaces";
 
 export default function SistemsModelTwo({
   what,
   title,
   text,
   image,
+  number,
+  encodedMessage,
 }: componentStyle) {
   return (
     <section
@@ -42,7 +38,6 @@ export default function SistemsModelTwo({
               quality={80}
               className="z-0 object-bottom"
             />
-            {/* --- MUDANÇA APLICADA AQUI --- */}
             <div className="absolute inset-0 bg-white/70 z-10 md:bg-black/50"></div>
           </div>
           <div
@@ -65,7 +60,11 @@ export default function SistemsModelTwo({
             <p className="mt-6 text-lg leading-8 text-dark-gray">{text}</p>
 
             <div className="mt-6 lg:mt-10  lg:flex justify-center lg:justify-start">
-              <PropostaButton text={"Saiba mais"} />
+              <PropostaButton
+                text={"Saiba mais"}
+                number={number}
+                encodedMessage={encodedMessage}
+              />
             </div>
           </div>
         </div>

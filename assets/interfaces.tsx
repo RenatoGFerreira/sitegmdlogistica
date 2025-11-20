@@ -1,11 +1,10 @@
-import { StaticImageData } from "next/image"; 
+import { StaticImageData } from "next/image";
 export interface AdvCardProps {
   icon: string | StaticImageData;
   title: string;
   text: string;
   link: string;
 }
-
 export interface NavLinkProps {
   href: string;
   children: React.ReactNode;
@@ -46,4 +45,19 @@ export interface BenefitCardProps {
 export interface WhatsAppButtonProps {
   phoneNumber: string;
   message?: string;
+}
+
+export interface componentStyle {
+  what: string;
+  title: string;
+  text: string;
+  image: string | StaticImageData;
+  number: string;
+  encodedMessage: string;
+}
+
+export interface Propose {
+  text: string;
+  number: string;
+  encodedMessage: string;
 }

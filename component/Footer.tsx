@@ -115,7 +115,7 @@ export default function Footer() {
             <p>CNPJ: 09.629.680/0001-55</p>
           </div>
 
-          {/* <div className="text-sm text-center md:text-right text-gray-500">
+          <div className="text-sm text-center md:text-right text-gray-500">
             <p>
               Site criado por{" "}
               <a
@@ -127,7 +127,7 @@ export default function Footer() {
                 IoNext
               </a>
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </footer>

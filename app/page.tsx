@@ -11,11 +11,11 @@ import SistemsModelTwo from "@/component/SistemsModelTwo";
 import AboutSection from "@/component/AboutSection";
 import AboutSection2 from "@/component/AboutSection2";
 import Institutional from "@/component/Institutional";
+import { phoneNumber, messageText } from "@/assets/objects";
 
 export default function Home() {
-  const WHATSAPP_PHONE_NUMBER = "5531984378974";
-  const WHATSAPP_MESSAGE =
-    "Olá! Visitei seu site e gostaria de mais informações.";
+  const WHATSAPP_PHONE_NUMBER = phoneNumber;
+  const WHATSAPP_MESSAGE = messageText;
   return (
     <div className="bg-light-gray text-dark-gray">
       <Header />
@@ -28,59 +28,72 @@ export default function Home() {
           what={"SISTEMA DE GESTÃO"}
           title={"GMD – SISTEMA DE GESTÃO LOGÍSTICA"}
           text={
-            "Gestão integrada de recebimentos, expedições e janelas logísticas. Suporta a operação diária e a decisão tática com dados confiáveis para sua empresa."
+            "Gestão integrada de recebimentos, expedições e janelas logísticas. Agendamento validado, conferência de NF, alertas e visibilidade operacional. Suporta a rotina diária e contribui para decisões táticas com base em dados confiáveis."
           }
-          image={"/gestao-logistica.jpg"}
+          image={"/module/1.png"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA DE GESTÃO LOGÍSTICA"}
         />
         <SistemsModelTwo
-          what={"SISTEMA DE MONITORAMENTO"}
-          title={"GMD READINESS"}
+          what={"SISTEMA DE TRANSPORTE"}
+          title={"GMD SISTEMA TRANSPORTA"}
           text={
             "Acompanhamento logístico e técnico em fornecedores e subfornecedores. Nossa equipe especializada monitora prazos, capacidade e informação, atuando também em questões de qualidade quando necessário."
           }
-          image={"/modelo-action.jpg"}
-        />
-        <SistemsModelOne
-          what={"SISTEMA DE TRANSPORTE"}
-          title={"GMD Transporta"}
-          text={
-            "Plataforma completa para gestão de transportes, integrando contratação, controle de entregas e performance. Otimiza rotas, reduz custos e garante visibilidade da operação do início ao fim."
-          }
-          image={"/gmdtrasporta.jpg"}
-        />
-        <SistemsModelTwo
-          what={"SISTEMA DE BUSSINES PROCESS OUTSOURCING"}
-          title={"GMD BPO Logístico"}
-          text={
-            "Terceirização estratégica de processos logísticos com expertise operacional. Assumimos rotinas críticas para liberar seu time, garantindo eficiência, conformidade e redução de custos com indicadores reais."
-          }
-          image={"/bpo-asd.jpg"}
+          image={"/module/2.png"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRANSPORTA"}
         />
         <SistemsModelOne
           what={"SISTEMA DE GESTÃO DE CARGA"}
-          title={" GMD Frete Seguro"}
+          title={"GMD - SISTEMA FRETE SEGURO"}
           text={
-            "Solução integrada para monitoramento de risco, prevenção de sinistros e gestão de seguros. Protege a carga, reduz perdas e assegura o cumprimento das exigências legais e contratuais."
+            "Auditoria automática de fretes com regras configuráveis. Garante consistência contratual, identifica divergências e fortalece o compliance com transparência entre operação, finanças e transportadoras. Segurança, clareza e controle em um só lugar"
           }
-          image={"/frete-seguro.jpg"}
+          image={"/module/3.jpg"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA FRETE SEGURO"}
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
-          title={"GMD Track & Trace"}
+          title={"GMD - SISTEMA TRACK & TRACE"}
           text={
-            "Monitoramento em tempo real com visibilidade ponta a ponta. Acompanhe cada etapa do transporte, receba alertas automáticos e tome decisões rápidas baseadas em dados confiáveis."
+            "Visibilidade centralizada de transportes com ou sem rastreador. Gestão de ocorrências, alertas e relatórios por cliente ou rota. Informação confiável para agir com mais agilidade e controle operacional."
           }
-          image={"/tracktrace.jpg"}
+          image={"/module/4.jpg"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRACK & TRACE"}
         />
         <SistemsModelOne
           what={"SISTEMAS PERSONALIZADOS"}
-          title={"GMD – Soluções Sistêmicas Sob Medida"}
+          title={"GMD SERVIÇOS - SISTÊMICAS PERSONALIZADOS"}
           text={
-            "Desenvolvimento de sistemas personalizados para sua operação. Criamos soluções que se adaptam ao seu fluxo, integram equipes e aumentam produtividade com tecnologia feita sob medida."
+            "Soluções sistêmicas sob medida para sua logística. Desenvolvemos sistemas personalizados que se adaptam ao seu fluxo, integram processos e ampliam a visibilidade com tecnologia alinhada à operação real."
           }
-          image={"/sob-medida.jpg"}
+          image={"/module/5.jpg"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMAS PERSONALIZADOS"}
         />
-
+        <SistemsModelTwo
+          what={"SISTEMA DE MONITORAMENTO"}
+          title={"GMD SERVICOS - READINESS"}
+          text={
+            "Serviço de acompanhamento logístico e técnico em fornecedores e subfornecedores. Monitoramos prazos, capacidade e qualidade para mitigar riscos e sustentar o fluxo produtivo em operações Just-in-Time ou críticas."
+          }
+          image={"/module/6.jpg"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD SISTEMA - READINESS"}
+        />
+        <SistemsModelOne
+          what={"SISTEMA DE BUSSINES PROCESS OUTSOURCING"}
+          title={"GMD SERVIÇOS - BPO LOGÍSTICO"}
+          text={
+            "BPO Logístico com equipe GMD dedicada. Assumimos rotinas críticas como PCM, PCP e torre de controle, com método, metas e indicadores para garantir eficiência, governança e alívio operacional."
+          }
+          image={"/module/7.jpg"}
+          number={WHATSAPP_PHONE_NUMBER}
+          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – BPO LOGÍSTICO"}
+        />
         <Institutional />
         <AboutSection2 />
         <Contacts />

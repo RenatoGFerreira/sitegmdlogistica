@@ -15,7 +15,13 @@ import {
   GalleryItemProps,
   NavLinkProps,
   AdvCardProps,
+  Propose
 } from "@/assets/interfaces";
+
+// CONFIGURAÇÕES DO WHATSAPP
+export const phoneNumber = "5531984378974";
+export const messageText =
+  "Olá! Gostaria de mais informações sobre a GMD Logística.";
 
 export const AdvCard: React.FC<AdvCardProps> = ({
   icon,
@@ -26,7 +32,7 @@ export const AdvCard: React.FC<AdvCardProps> = ({
   return (
     <div
       className="
-        min-h-[320px]
+        min-h-80
         flex flex-col   
         gap-2.5                
         border border-primary-blue/30 
@@ -40,8 +46,8 @@ export const AdvCard: React.FC<AdvCardProps> = ({
         ease-in                
         hover:scale-105        
         hover:cursor-pointer   
-        hover:shadow-[0px_72px_49px_-51px_theme(colors.secondary-blue/0.21)]
-        hover:bg-gradient-to-b from-transparent to-secondary-blue/10  
+        hover:shadow-[0px_72px_49px_-51px_--theme(--color-secondary-blue/0.21)]
+        hover:bg-linear-to-b from-transparent to-secondary-blue/10  
       "
     >
       <Image
@@ -140,7 +146,7 @@ export const FaqItem: React.FC<FaqItemProps> = ({ question, answer }) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-lg font-medium text-light-gray">{question}</span>
-        <span className=" text-xl font-bold text-secondary-blue w-6 h-6 mr-3 mt-1 flex-shrink-0">
+        <span className=" text-xl font-bold text-secondary-blue w-6 h-6 mr-3 mt-1 shrink-0">
           {isOpen ? "−" : "+"}
         </span>
       </button>
@@ -211,16 +217,9 @@ export const WhatsAppIcon = () => (
   </svg>
 );
 
-export const phoneNumber = "5531984378974";
-export const messageText =
-  "Olá! Gostaria de mais informações sobre a GMD Logística.";
-
-export interface Propose {
-  text: string;
-}
-export const PropostaButton = ({ text }: Propose) => (
+export const PropostaButton = ({ text, number, encodedMessage }: Propose) => (
   <a
-    href="https://wa.me/5531999999999"
+    href={`https://wa.me/${number}?text=${encodedMessage}`}
     target="_blank"
     rel="noopener noreferrer"
     className="
@@ -249,3 +248,4 @@ export const PropostaButton = ({ text }: Propose) => (
     {text}
   </a>
 );
+

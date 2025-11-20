@@ -42,7 +42,7 @@ const cardVariants: Variants = {
   },
 };
 
-const AboutSection2: React.FC = () => {
+export default function AboutSection2() {
   return (
     <section id="Aboutme" className="bg-light-gray py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -53,14 +53,6 @@ const AboutSection2: React.FC = () => {
           <h2 className="text-3xl font-bold tracking-tight text-primary-blue sm:text-4xl">
             GMD LOGÍSTICA
           </h2>
-          {/* <p className="mt-4 text-xl text-dark-gray">
-            Acompanhamento logístico e técnico em fornecedores e
-            subfornecedores.
-          </p>
-          <p className="mt-4 text-lg leading-8 text-dark-gray">
-            Nossa equipe especializada monitora prazos, capacidade e informação,
-            atuando também em questões de qualidade quando necessário.
-          </p> */}
         </div>
         <div className="mt-16 max-w-none">
           <motion.dl
@@ -93,6 +85,4 @@ const AboutSection2: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default AboutSection2;
+}
