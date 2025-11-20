@@ -15,7 +15,7 @@ import {
   GalleryItemProps,
   NavLinkProps,
   AdvCardProps,
-  Propose
+  Propose,
 } from "@/assets/interfaces";
 
 // CONFIGURAÇÕES DO WHATSAPP
@@ -217,9 +217,19 @@ export const WhatsAppIcon = () => (
   </svg>
 );
 
-export const PropostaButton = ({ text, number, encodedMessage }: Propose) => (
+export const PropostaButton = ({
+  text,
+  number,
+  encodedMessage,
+  isWhatsappLink,
+  alternateHref,
+}: Propose) => (
   <a
-    href={`https://wa.me/${number}?text=${encodedMessage}`}
+    href={
+      isWhatsappLink === "yes"
+        ? `https://wa.me/${number}?text=${encodedMessage}`
+        : alternateHref
+    }
     target="_blank"
     rel="noopener noreferrer"
     className="
@@ -248,4 +258,3 @@ export const PropostaButton = ({ text, number, encodedMessage }: Propose) => (
     {text}
   </a>
 );
-

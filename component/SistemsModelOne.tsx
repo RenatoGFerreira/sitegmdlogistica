@@ -10,6 +10,8 @@ export default function SistemsModelTwo({
   image,
   number,
   encodedMessage,
+  isWhatsappLink,
+  alternateHref,
 }: componentStyle) {
   return (
     <section
@@ -47,6 +49,8 @@ export default function SistemsModelTwo({
                 text={"Saiba mais"}
                 number={number}
                 encodedMessage={encodedMessage}
+                isWhatsappLink={isWhatsappLink}
+                alternateHref={alternateHref}
               />
             </div>
           </div>

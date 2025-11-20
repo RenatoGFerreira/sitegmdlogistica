@@ -54,10 +54,14 @@ export interface componentStyle {
   image: string | StaticImageData;
   number: string;
   encodedMessage: string;
+  isWhatsappLink: string;
+  alternateHref: string
 }
 
 export interface Propose {
   text: string;
   number: string;
   encodedMessage: string;
+  isWhatsappLink: 'yes' | 'no' | string;
+  alternateHref?: string;
 }

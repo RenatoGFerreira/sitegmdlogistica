@@ -32,7 +32,11 @@ export default function Home() {
           }
           image={"/module/1.png"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA DE GESTÃO LOGÍSTICA"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA DE GESTÃO LOGÍSTICA"
+          }
+          isWhatsappLink={"no"}
+          alternateHref="/logisticagmd"
         />
         <SistemsModelTwo
           what={"SISTEMA DE TRANSPORTE"}
@@ -42,7 +46,11 @@ export default function Home() {
           }
           image={"/module/2.png"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRANSPORTA"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRANSPORTA"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref={""}
         />
         <SistemsModelOne
           what={"SISTEMA DE GESTÃO DE CARGA"}
@@ -52,7 +60,11 @@ export default function Home() {
           }
           image={"/module/3.jpg"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA FRETE SEGURO"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA FRETE SEGURO"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref=""
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
@@ -62,7 +74,11 @@ export default function Home() {
           }
           image={"/module/4.jpg"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRACK & TRACE"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMA TRACK & TRACE"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref=""
         />
         <SistemsModelOne
           what={"SISTEMAS PERSONALIZADOS"}
@@ -72,7 +88,11 @@ export default function Home() {
           }
           image={"/module/5.jpg"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMAS PERSONALIZADOS"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – SISTEMAS PERSONALIZADOS"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref=""
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
@@ -82,7 +102,11 @@ export default function Home() {
           }
           image={"/module/6.jpg"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD SISTEMA - READINESS"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD SISTEMA - READINESS"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref=""
         />
         <SistemsModelOne
           what={"SISTEMA DE BUSSINES PROCESS OUTSOURCING"}
@@ -92,7 +116,11 @@ export default function Home() {
           }
           image={"/module/7.jpg"}
           number={WHATSAPP_PHONE_NUMBER}
-          encodedMessage={"Vi o site de vocês e gostaria de saber mais sobre o GMD – BPO LOGÍSTICO"}
+          encodedMessage={
+            "Vi o site de vocês e gostaria de saber mais sobre o GMD – BPO LOGÍSTICO"
+          }
+          isWhatsappLink={"yes"}
+          alternateHref=""
         />
         <Institutional />
         <AboutSection2 />
