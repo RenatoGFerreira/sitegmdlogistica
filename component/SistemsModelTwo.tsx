@@ -45,7 +45,7 @@ export default function SistemsModelTwo({
           <div
             className="
                   flex-1 flex flex-col justify-center 
-                  p- md:p-12 lg:p-16 
+                  p-2 md:p-12 lg:p-16 
                   max-w-lg md:max-w-xl mx-auto md:mx-0 
                   
                   col-start-1 row-start-1 z-20  

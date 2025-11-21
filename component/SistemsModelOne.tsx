@@ -29,7 +29,7 @@ export default function SistemsModelTwo({
           <div
             className="
                     flex-1 flex flex-col justify-center 
-                    p- md:p-12 lg:p-16 
+                    p-2 md:p-12 lg:p-16 
                     max-w-lg md:max-w-xl mx-auto md:mx-0 
                     
                     col-start-1 row-start-1 z-20  
@@ -37,7 +37,7 @@ export default function SistemsModelTwo({
                     md:items-start md:text-left  
                   "
           >
-            <h2 className="text-base font-semibold leading-7 text-light-gray">
+            <h2 className="text-base font-semibold leading-7 text-light-gray ">
               {what}
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight uppercase text-secondary-blue sm:text-4xl">
