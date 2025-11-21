@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Título do Projeto
 
-## Getting Started
+Esta página foi desenvolvido por **Renato Ferreira** e **Joussemar Borges** para a empresa **GMD Logística**.
 
-First, run the development server:
+## 📞 Contato
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **WhatsApp:** [+55 31 9 8437 8974](https://wa.me/5531984378974)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O site foi construído com **Next.js** e as seguintes tecnologias, seguindo as melhores práticas de desenvolvimento web:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React.js**
+- **TypeScript**
+- **Tailwind CSS**
 
-## Learn More
+## 📊 Desempenho (Lighthouse)
 
-To learn more about Next.js, take a look at the following resources:
+As métricas de desempenho e qualidade do site, avaliadas pelo Lighthouse, são:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Acessibilidade:** 95 pts
+- **SEO:** 100 pts
+- **Práticas Recomendadas:** 100 pts
+- **Desempenho:** 78 pts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Métricas Principais
 
-## Deploy on Vercel
+- **First Contentful Paint (FCP):** 0,8 s
+- **Total Blocking Time (TBT):** 100 ms
+- **Largest Contentful Paint (LCP):** 4,3 s
+- **Cumulative Layout Shift (CLS):** 0
+- **Speed Index** 2,7 s
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Paleta de Cores
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+As cores principais utilizadas no projeto são:
+
+--color-primary-blue: #1A3B7A; /* Usada para tons mais escuros em azul */
+--color-secondary-blue: #4DA6FF; /* Usada para tons mais claros em azul */
+--color-dark-blue: #0D2244; /* Usada para os tons de cabeçalho e rodapé */
+--color-dark-gray: #333333; /* Usada para fundos escuros e textos de contraste */
+--color-light-gray: #F8F8F8; /* Usada para fundos claros e textos de contraste */
+--color-accent-yellow: #FFD700; /* Usada para botões e CTAs (Chamadas para Ação) */
+
+## 📊 Mapa de Calor (Microsoft Clarity)
+    Acesse o site: https://clarity.microsoft.com/
+
+    login: gmdlogistica.teste@gmail.com
+    senha: Alvarogmd
+
+## 📁 Estrutura de Arquivos
+
+A organização dos arquivos e diretórios mais importantes do projeto é a seguinte:
+
+* `public/`
+    * Contém a imagem de fundo do componente principal (Hero) e a foto das pessoas exibidas nele.
+
+* `src/app/page.tsx`
+    * Arquivo da página principal da aplicação.
+
+* `src/assets/images/`
+    * Armazena `imagens` de contexto complexo.
+
+* `src/public/`
+    * Armazena `imagens` de contexto simples.
+
+* `src/assets/interfaces.tsx`
+    * Define todas as `interfaces` e `types` do TypeScript utilizados no projeto.
+
+* `src/assets/objects.tsx`
+    * Contém todos os objetos e estruturas de dados estáticos usados no site.
+
+* `src/assets/images/`
+    * Armazena `imagens` de contexto complexo.
