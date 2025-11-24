@@ -31,7 +31,7 @@ export default function SistemsModelTwo({
           <div
             className="
                   relative flex-1 min-h-[250px] md:min-h-auto 
-                  col-start-1 row-start-1 z-10"
+                  col-start-1 row-start-1 z-10 border border-yellow-500"
           >
             <Image
               src={image}
@@ -39,7 +39,7 @@ export default function SistemsModelTwo({
               layout="fill"
               objectFit="cover"
               quality={80}
-              className={`z-0 object-${imageObjectPosition}`}
+              className={`z-0 object-${imageObjectPosition} object-cover`}
 
             />
             <div className="absolute inset-0 bg-white/70 z-10 md:bg-black/50"></div>
