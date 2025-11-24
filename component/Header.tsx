@@ -44,7 +44,7 @@ export default function Header(){
 
         {/* Menu Desktop */}
         <nav className="hidden md:flex space-x-8 text-light-gray">
-          <NavLink href="#sistems">Sistemas</NavLink>
+          <NavLink href="#sistems">Soluções</NavLink>
           <NavLink href="#Aboutme">Quem Somos</NavLink>
           <NavLink href="#contact">Fale Conosco</NavLink>
         </nav>
@@ -76,7 +76,7 @@ export default function Header(){
       {isMenuOpen && (
         <div className="md:hidden mt-4">
           <nav className="flex flex-col items-center space-y-4 text-light-gray">
-            <NavLink href="#sistems">Sistemas</NavLink>
+            <NavLink href="#sistems">Soluções</NavLink>
             <NavLink href="#Aboutme">Quem Somos</NavLink>
             <NavLink href="#contact">Fale Conosco</NavLink>
           </nav>

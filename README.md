@@ -5,6 +5,7 @@ Esta página foi desenvolvido por **Renato Ferreira** e **Joussemar Borges** par
 ## 📞 Contato
 
 - **WhatsApp:** [+55 31 9 8437 8974](https://wa.me/5531984378974)
+- **WhatsApp:** [+55 31 9 9812 4735](https://wa.me/5531998124735)
 
 ## 💻 Tecnologias Utilizadas
 
@@ -18,10 +19,10 @@ O site foi construído com **Next.js** e as seguintes tecnologias, seguindo as m
 
 As métricas de desempenho e qualidade do site, avaliadas pelo Lighthouse, são:
 
-- **Acessibilidade:** 95 pts
+- **Acessibilidade:** 98 pts
 - **SEO:** 100 pts
-- **Práticas Recomendadas:** 100 pts
-- **Desempenho:** 78 pts
+- **Práticas Recomendadas:** 98 pts
+- **Desempenho:** 90 pts
 
 ### Métricas Principais
 

@@ -55,7 +55,8 @@ export interface componentStyle {
   number: string;
   encodedMessage: string;
   isWhatsappLink: string;
-  alternateHref: string
+  alternateHref?: string;
+  imageObjectPosition?: 'center' | 'top' |string;
 }
 
 export interface Propose {

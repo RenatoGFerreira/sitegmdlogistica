@@ -12,6 +12,7 @@ export default function SistemsModelTwo({
   encodedMessage,
   isWhatsappLink,
   alternateHref,
+  imageObjectPosition
 }: componentStyle) {
   return (
     <section
@@ -38,7 +39,8 @@ export default function SistemsModelTwo({
               layout="fill"
               objectFit="cover"
               quality={80}
-              className="z-0 object-bottom"
+              className={`z-0 object-${imageObjectPosition}`}
+
             />
             <div className="absolute inset-0 bg-white/70 z-10 md:bg-black/50"></div>
           </div>

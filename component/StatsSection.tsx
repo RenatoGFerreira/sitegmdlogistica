@@ -36,7 +36,7 @@ const statsData = [
     id: 6,
     value: 700,
     prefix: "+",
-    suffix: "mil",
+    suffix: "",
     label: "Visitas a fornecedores por ano",
   },
 ];

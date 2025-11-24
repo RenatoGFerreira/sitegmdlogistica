@@ -37,12 +37,13 @@ export default function Home() {
           }
           isWhatsappLink={"no"}
           alternateHref="/logisticagmd"
+          imageObjectPosition={"center"}
         />
         <SistemsModelTwo
           what={"SISTEMA DE TRANSPORTE"}
           title={"GMD SISTEMA TRANSPORTA"}
           text={
-            "Acompanhamento logístico e técnico em fornecedores e subfornecedores. Nossa equipe especializada monitora prazos, capacidade e informação, atuando também em questões de qualidade quando necessário."
+            "Gestão de transportadoras com contratos, rotas, programação, SLAs e frota integrada. Visibilidade compartilhada, compliance reforçado e base sólida para auditoria e controle de desempenho logístico."
           }
           image={"/module/2.png"}
           number={WHATSAPP_PHONE_NUMBER}
@@ -51,6 +52,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref={""}
+          imageObjectPosition={"top"}
         />
         <SistemsModelOne
           what={"SISTEMA DE GESTÃO DE CARGA"}
@@ -65,6 +67,8 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
+          imageObjectPosition={"center"}
+
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
@@ -79,6 +83,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
+          imageObjectPosition={"center"}
         />
         <SistemsModelOne
           what={"SISTEMAS PERSONALIZADOS"}
@@ -93,6 +98,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
+          imageObjectPosition={"top"}
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
@@ -107,6 +113,8 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
+          imageObjectPosition={"center"}
+
         />
         <SistemsModelOne
           what={"SISTEMA DE BUSSINES PROCESS OUTSOURCING"}
@@ -121,6 +129,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
+          imageObjectPosition={"center"}
         />
         <Institutional />
         <AboutSection2 />
