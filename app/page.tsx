@@ -37,7 +37,7 @@ export default function Home() {
           }
           isWhatsappLink={"no"}
           alternateHref="/logisticagmd"
-          imageObjectPosition={"center"}
+          imageObjectPosition={"object-center"}
         />
         <SistemsModelTwo
           what={"SISTEMA DE TRANSPORTE"}
@@ -52,7 +52,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref={""}
-          imageObjectPosition={"top"}
+          imageObjectPosition={"object-top"}
         />
         <SistemsModelOne
           what={"SISTEMA DE GESTÃO DE CARGA"}
@@ -67,7 +67,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
-          imageObjectPosition={"center"}
+          imageObjectPosition={"object-center"}
 
         />
         <SistemsModelTwo
@@ -83,7 +83,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
-          imageObjectPosition={"center"}
+          imageObjectPosition={"object-center"}
         />
         <SistemsModelOne
           what={"SISTEMAS PERSONALIZADOS"}
@@ -98,7 +98,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
-          imageObjectPosition={"top"}
+          imageObjectPosition={"object-top"}
         />
         <SistemsModelTwo
           what={"SISTEMA DE MONITORAMENTO"}
@@ -113,7 +113,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
-          imageObjectPosition={"center"}
+          imageObjectPosition={"object-center"}
 
         />
         <SistemsModelOne
@@ -129,7 +129,7 @@ export default function Home() {
           }
           isWhatsappLink={"yes"}
           alternateHref=""
-          imageObjectPosition={"center"}
+          imageObjectPosition={"object-center"}
         />
         <Institutional />
         <AboutSection2 />
