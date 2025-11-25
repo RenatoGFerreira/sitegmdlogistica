@@ -66,7 +66,7 @@ export default function SistemsModelTwo({
               alt="mulher com tablet da gmd"
               fill
               quality={80}
-              className={`z-0 object-${imageObjectPosition} object-cover `}
+              className={`z-0 object-${imageObjectPosition}`}
             />
             <div className="absolute inset-0 bg-black/50 z-10"></div>
           </div>
